@@ -1,0 +1,25 @@
+*{
+	box-sizing: border-box;
+}
+.grid-box{
+	border: 1px solid;
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.grid-row{
+	float: left;
+    width: 100%;
+}
+.hero{
+	background: url('/assets/img/hero.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.picks{
+	background: url('/assets/img/picks.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

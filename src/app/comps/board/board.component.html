@@ -1,0 +1,3 @@
+<div [style.width.px]="width*50">
+	<div (keydown)="moveHero($event)" tabindex="{{a}}" class="grid-box _{{a}}" [ngClass]="{'hero':centerBox==a,'picks':chkPicks(a)}" *ngFor="let a of boxArr"></div>
+</div>
